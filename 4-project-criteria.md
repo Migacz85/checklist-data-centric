@@ -6,7 +6,7 @@ So here we have all the criteria that are taken for assessment of database 4 pro
 
 - Don't leave your editor while checking your criteria for project :)
 - Get better understanding from what grade is coming from. 
-- Get instant access to requirements  
+- Get instant access to requirements.   
 
 Just tick them [x] while developing. It can be used in case of previous projects - just delete not applicable section.
 
@@ -19,7 +19,7 @@ Just tick them [x] while developing. It can be used in case of previous projects
 ##  Deployment implementation
 
 - [ ]  Your site is deployed online on Github Pages, Heroku or any other system with full functionality.	
- The deployed version is identical to the development version except as explicitly mentioned in the deployment section in the documentation.
+- [ ]  The deployed version is identical to the development version except as explicitly mentioned in the deployment section in the documentation.
 
 
 ## Comments
@@ -111,7 +111,7 @@ Your comments explain the “why” rather than the “what”.
 - [ ] For large video/audio resources, prefer an external hosting platform (e.g., YouTube, S3….)
 
 ## Responsive Design
--
+
 - [ ] All page elements look well on screens as small as 360 pixels wide and as big as 3840 pixels wide (4K).	
 - [ ] The site uses Bootstrap grid sizes or CSS3 media queries to ensure the layout changes appropriately and reflows when the screen is resized.
 
@@ -142,14 +142,16 @@ Your comments explain the “why” rather than the “what”.
 - [ ] All input elements are clearly labelled, and provide placeholders and default values whenever relevant.	
 - [ ] The project follows common and consistent UI/UX conventions - there are plenty of online resources you can take inspiration from, such as GoodUI.
 
-## UX design
--
+##  Navigation
+
 - [ ] All resources on the site are easy to find, allowing users to navigate the layout of the site intuitively.	
 - [ ] The site’s navigation is consistent and reasoned.	
 - [ ] There is never a need to use the Back button to move through the site.	
 - [ ] For any external links, the target=”_blank” attribute is used.	
 - [ ] There are no broken links.
-- [ ] Navigation
+
+## UX design
+
 - [ ] The site's design, as implemented, provides a good solution to the users' demands and expectations.	
 - [ ] A regular user would not immediately think "there's a much better way to do this" about any part of the project.
 - [ ] The project's documentation describes the UX design work undertaken for this project and the reasoning behind it.	
@@ -170,7 +172,9 @@ Your comments explain the “why” rather than the “what”.
 - [ ] There are well-kept Procfile, requirements.txt file, settings files, etc., including separate versions/branches of these if relevant.	
 - [ ] All secret keys are hidden in environment variables or in files that are in .gitignore.	
 - [ ] Debug mode (e.g. in Flask or Django) is disabled for the deployed version.
-- [ ] Software Development Practices
+
+## Software Development Practices
+
 - [ ] Your template code is valid and well organised.	
 - [ ] Your template code demonstrates solid understanding of template tags and template inheritance.	
 - [ ] There is no unneeded complexity
